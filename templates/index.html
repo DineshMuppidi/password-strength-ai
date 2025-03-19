@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Strength Checker</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input, button { margin: 10px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <h1>AI Password Strength Checker</h1>
+    <form method="POST">
+        <div>
+            <input type="text" name="password" placeholder="Enter a password">
+            <button type="submit" name="check">Check Strength</button>
+        </div>
+        <div>
+            <input type="number" name="length" min="8" value="12" style="width: 60px;">
+            <button type="submit" name="generate">Generate Password</button>
+        </div>
+    </form>
+    {% if result %}
+        <p>Result: {{ result }}</p>
+    {% endif %}
+    {% if generated_password %}
+        <p>Generated Password: {{ generated_password }}</p>
+    {% endif %}
+</body>
+</html>
