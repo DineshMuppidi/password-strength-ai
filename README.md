@@ -30,9 +30,8 @@ Try it live: [https://dinesh-password-ai-5faa4d04becd.herokuapp.com/](https://di
 
 ## Future Improvements
 - Use a larger dataset (e.g., RockYou).
-- Deploy online (e.g., Heroku).
 - Enhance AI with advanced features (e.g., n-gram analysis).
 
 ## Author
 Dinesh Muppidi - Cybersecurity Master’s Student, USA  
-[LinkedIn](https://linkedin.com/in/yourprofile) | [Email](mailto:your.email@example.com)
+[LinkedIn](https://linkedin.com/in/dineshmuppidi/) | [Email](mailto:muppididinesh@outlook.com)
