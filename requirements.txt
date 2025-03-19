@@ -27,7 +27,7 @@ opt_einsum==3.4.0
 optree==0.14.1
 packaging==24.2
 pandas==2.2.3
-protobuf==5.29.3
+protobuf==4.25.3
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 pytz==2025.1
@@ -36,7 +36,7 @@ rich==13.9.4
 scikit-learn==1.6.1
 scipy==1.15.2
 six==1.17.0
-tensorboard==2.19.0
+tensorboard==2.16.1
 tensorboard-data-server==0.7.2
 tensorflow-cpu==2.16.1
 tensorflow-io-gcs-filesystem==0.37.1
